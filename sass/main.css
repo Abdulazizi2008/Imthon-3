@@ -32,6 +32,7 @@ nav {
 }
 
 .navbar-shrink {
+  transition: 0.5s;
   padding: 20px 0;
 }
 
@@ -51,15 +52,13 @@ nav {
 
 nav {
   max-width: 1440px;
-  height: 120px;
-  flex-shrink: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
 }
 
-.navbar {
+.navbars {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -870,4 +869,17 @@ main {
 .flex {
   display: flex;
   gap: 472px;
+}
+
+#backtop {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 15px 1px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
 }/*# sourceMappingURL=main.css.map */

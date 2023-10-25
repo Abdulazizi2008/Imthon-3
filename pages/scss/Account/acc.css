@@ -229,6 +229,7 @@ main {
 }
 .list a:hover {
   color: #1c3554;
+  border-bottom: solid #f72585;
 }
 
 .categories {
